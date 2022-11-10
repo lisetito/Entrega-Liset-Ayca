@@ -16,6 +16,10 @@ a {
     color: #152536;
 }
 
+.logo_apo_top{
+    width: 200px;
+}
+
 .portada {
     background-color: #F8D7DA;
 }
@@ -57,6 +61,11 @@ a {
 
 }
 
+.slide-right {
+    -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 .slide-top {
     -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -77,6 +86,20 @@ a {
     background-color: #F1AEB5;
     transform: scale(1.05);
     transition-duration: 200ms;
+}
+
+.card__donaciones:hover {
+    transform: scale(1.03);
+    transition-duration: 500ms;
+}
+
+ol,
+ul {
+    padding-left: 0rem;
+}
+
+.datos_cuenta {
+    font-weight: 800;
 }
 
 .footer {

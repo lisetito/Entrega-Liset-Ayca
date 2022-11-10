@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;1000&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Sobre nosotros</title>
@@ -17,8 +18,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="../img/ApoLogo.png" alt="Abandonados parque OHiggins" width="200"></a>
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo_apo_top" src="../img/ApoLogo.png" alt="Abandonados parque OHiggins"
+                        width="200"></a>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -55,15 +57,16 @@
             <div class="row justify-content-center m-1">
 
                 <h1 class="text-center m-2 pb-3 pt-5 fs-1 fw-bold">Quiénes Somos</h1>
-                <h2 class="text-center fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h2 class="text-center fs-5 fw-light">Trabajamos por el bienestar animal y promover el respeto y la
+                    tenencia responsable de animales de compañía.
                 </h2>
                 <div class="p-0 mt-4">
-                    <img src="../img/img-quienes-somos.png" class="img-fluid rounded-5" alt="perro en brazos">
+                    <img data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    src="../img/img-quienes-somos.png" class="img-fluid rounded-5" alt="mujer abrazando a un perro">
                     <article>
-                        <p class="mt-4 mt-md-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, illo? Dicta,
-                            laboriosam corporis
-                            ullam sed animi exercitationem beatae, in, modi odio perferendis voluptas. Perferendis, at?
-                            Repudiandae dolores ut temporibus incidunt.</p>
+                        <p class="mt-4 mt-md-4">Somos un pequeño grupo de voluntarios que asiste y busca familia a los
+                            animalitos
+                            abandonados en el Parque O'Higgins, en Santiago de Chile. No tenemos refugio.</p>
                 </div>
 
                 </article>
@@ -89,7 +92,10 @@
             </div>
             <p class="text-center p-2 fw-lighter">© Abandonados Parque OHiggins - 2022</p>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
