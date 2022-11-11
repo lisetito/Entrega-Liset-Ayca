@@ -1,0 +1,38 @@
+.card__perfil {
+    background-color: #F9F2F1;
+    border: 0;
+    padding: 0;
+}
+
+.card__perfil:hover {
+    transform: scale(1.03);
+    transition-duration: 500ms;
+
+}
+
+.slide-right {
+    -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-top {
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.card__descripcion {
+    color: #6C757D;
+}
+
+.btn_ver_perfil {
+    background-color: #FFDAD9;
+    border: 0;
+    color: #400008;
+
+}
+
+.btn_ver_perfil:hover {
+    background-color: #F1AEB5;
+    transform: scale(1.05);
+    transition-duration: 200ms;
+}
