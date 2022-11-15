@@ -5,6 +5,7 @@
 
 @import "./Component/tarjeta";
 @import "./Component/navbar";
+@import "./Component/footer";
 
 @import "./pages/Index";
 @import "./pages/animales-en-adopcion";
@@ -12,6 +13,5 @@
 @import "./pages/sobre-nosotros";
 @import "./pages/contacto";
 
-h1 {
-    color: aqua;
-}
+
+
