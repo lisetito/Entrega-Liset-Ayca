@@ -38,7 +38,7 @@ a {
 }
 
 .btn_ver_perfil {
-  background-color: #FFDAD9;
+  background-color: #Ffdad9;
   border: 0;
   color: #400008;
 }
@@ -50,46 +50,46 @@ a {
 }
 
 .navbar-nav .nav-link.active {
-  color: #152536;
+  color: color-primario;
 }
 
 .logo_apo_top {
   width: 200px;
 }
 
-.footer {
+footer {
   background-color: #152536;
   color: white;
 }
-
-.logo__footer {
+footer .logo__footer {
   width: 120px;
+}
+footer .bi-instagram {
+  color: white;
+}
+footer .bi-facebook {
+  color: white;
 }
 
 .portada {
-  background-color: #F8D7DA;
+  background-color: #Ffdad9;
 }
-
-.portada__img {
+.portada .portada__img {
   padding: 0px;
 }
-
-.texto-portada {
+.portada .texto-portada {
   padding: 4%;
 }
-
-.portada__titular {
+.portada .texto-portada .portada__titular {
   font-weight: 800;
   color: #152536;
   font-size: 3rem;
 }
-
-.btn_portada {
+.portada .texto-portada .btn_portada {
   background-color: #152536;
   color: white;
 }
-
-.btn_portada:hover {
+.portada .texto-portada .btn_portada:hover {
   background-color: white;
   border: #152536 2px solid;
   color: #152536;
@@ -100,11 +100,13 @@ a {
   transition-duration: 500ms;
 }
 
-ol,
+.datos_cuenta {
+  font-weight: 800;
+}
+
 ul {
   padding-left: 0rem;
 }
-
-.datos_cuenta {
+ul .datos_cuenta {
   font-weight: 800;
 }/*# sourceMappingURL=main.css.map */

@@ -1,28 +1,28 @@
 .portada {
-    background-color: #F8D7DA;
-}
+    background-color: $color-secundario;
 
-.portada__img {
-    padding: 0px;
-}
+    .portada__img {
+        padding: 0px;
+    }
 
-.texto-portada {
-    padding: 4%;
-}
+    .texto-portada {
+        padding: 4%;
 
-.portada__titular {
-    font-weight: 800;
-    color: #152536;
-    font-size: 3rem;
-}
+        .portada__titular {
+            font-weight: 800;
+            color: $color-primario;
+            font-size: 3rem;
+        }
 
-.btn_portada {
-    background-color: #152536;
-    color: white;
-}
+        .btn_portada {
+            background-color: $color-primario;
+            color: white;
+        }
 
-.btn_portada:hover {
-    background-color: white;
-    border: #152536 2px solid;
-    color: #152536;
+        .btn_portada:hover {
+            background-color: white;
+            border: $color-primario 2px solid;
+            color: $color-primario;
+        }
+    }
 }

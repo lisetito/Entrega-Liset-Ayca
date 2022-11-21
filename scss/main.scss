@@ -1,13 +1,12 @@
-@import "./utils/variebles";
-@import "./utils/mixin";
+@import "./utils/variables";
 
 @import "./base/base";
 
-@import "./Component/tarjeta";
-@import "./Component/navbar";
-@import "./Component/footer";
+@import "./component/tarjeta";
+@import "./component/navbar";
+@import "./component/footer";
 
-@import "./pages/Index";
+@import "./pages/index";
 @import "./pages/animales-en-adopcion";
 @import "./pages/donaciones";
 @import "./pages/sobre-nosotros";

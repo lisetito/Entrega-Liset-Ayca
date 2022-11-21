@@ -1,8 +1,17 @@
-.footer_apo {
-    background-color: #152536;
+footer {
+    background-color: $color-primario;
     color: white;
-}
 
-.logo__footer {
-    width: 120px;
+    .logo__footer {
+        width: 120px;
+    }
+
+    .bi-instagram {
+        color: white;
+    }
+
+    .bi-facebook {
+        color: white;
+    }
+
 }
