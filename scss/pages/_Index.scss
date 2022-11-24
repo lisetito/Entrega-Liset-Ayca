@@ -14,15 +14,27 @@
             font-size: 3rem;
         }
 
-        .btn_portada {
+        .btn__portada {
             background-color: $color-primario;
             color: white;
         }
 
-        .btn_portada:hover {
+        .btn__portada:hover {
             background-color: white;
             border: $color-primario 2px solid;
             color: $color-primario;
         }
     }
+}
+
+.btn__portada {
+    background-color: $color-primario;
+    color: white;
+
+}
+
+.btn__portada:hover {
+    background-color: white;
+    border: $color-primario 2px solid;
+    color: $color-primario;
 }

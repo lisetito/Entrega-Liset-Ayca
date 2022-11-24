@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;1000&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <meta name="description"
@@ -58,7 +59,7 @@
 
         <div class="contenedor container">
 
-            <div class="row justify-content-center mt-5">
+            <div data-aos="fade-up" class="row justify-content-center mt-5">
 
                 <div class="card card__perfil m-2 rounded-4 col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
                     <img src="../img/foto-perro-1.jpg" class="card-img-fluid rounded-4" alt="perro en adopcion">
@@ -164,6 +165,11 @@
         </div>
         <p class="text-center p-2 fw-lighter mt-3">© Abandonados Parque OHiggins - 2022</p>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 <script src="../js/bootstrap.bundle.min.js"></script>
 
